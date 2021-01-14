@@ -1,0 +1,60 @@
+.container
+{   margin: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: 40px;
+
+     
+}
+.container > div
+{
+margin: 1%;
+height:100px;
+
+}
+.a
+{
+  flex: 0 0 70%;
+  background-color: #361999;
+}
+
+.b
+{
+  flex:0 0 20%;
+  background-color: #78FFF1;
+}
+.col-3
+{
+  flex: 0 0 29.4%;
+}
+.c
+{
+  flex: 0 0 91.8%;
+  background-color: #FF6495;
+}
+.d
+{
+
+  background-color: #162B32;
+}
+.e
+{ 
+  
+  background-color: #FF4838;
+}
+.f
+{ 
+  
+  background-color: #490B3D;
+}
+.g
+{ 
+  flex:0 0 20%;
+  background-color: #BD1E51;
+}
+.h
+{
+  flex:0 0 70%;
+ background-color:#EAD6CD;
+}
