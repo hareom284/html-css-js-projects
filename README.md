@@ -2,7 +2,8 @@
 
 <h2>Here some projects that you will learn from here<h2>
 
-<strong>Before starting this please read "readme.md" of each project.
+<strong>Before starting this please read "readme.md" of each project.</strong>
+
 
 | No | Projects | Demo
 |:-: |--------------------------------------|
