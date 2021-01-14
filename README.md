@@ -5,7 +5,7 @@
 <strong>Before starting this please read "readme.md" of each project.
 
 | No | Projects | Demo
---------------------------------------
+|:-: |--------------------------------------|
 | 1. | Project  0 (Click on expand)  
 
 | 2. | Project 1(Follower Celebration) 
