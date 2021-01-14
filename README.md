@@ -7,6 +7,6 @@
 
 | No | Projects | Demo
 |---|-------------|-------------------------|
-| 1. | Project  0(Click on expand)  |  h |
-| 2. | Project 1(Follower Celebration) | y |
-| 3. | Project 3(Paint with flex) | Z |
+| 1. | Project  0(Click on expand)  |  [Live Demo](https://hareom284.github.io/html-css-js-projects/Project0/) |
+| 2. | Project 1(Follower Celebration) | [Live Demo](https://hareom284.github.io/html-css-js-projects/Project1(Follower_Clelebration)/) |
+| 3. | Project 3(Paint with flex) | [Live Demo](https://hareom284.github.io/html-css-js-projects/Project2(Paint_with_css)/) |
