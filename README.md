@@ -6,7 +6,7 @@
 
 
 | No | Projects | Demo
-|:-: |--------------------------------------|
+|  |-------------|-------------------------|
 | 1. | Project  0 (Click on expand)  
 
 | 2. | Project 1(Follower Celebration) 
