@@ -4,10 +4,10 @@
 
 <strong>Before starting this please read "readme.md" of each project.
 
-No | Projects | Demo
---------------------
-1. | Project  0 (Click on expand) | 
+| No | Projects | Demo
+--------------------------------------
+| 1. | Project  0 (Click on expand)  
 
-2. | Project 1(Follower Celebration) |
+| 2. | Project 1(Follower Celebration) 
 
-3. | Project 3 (Paint with flex) |
+| 3. | Project 3 (Paint with flex) 
