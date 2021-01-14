@@ -7,8 +7,6 @@
 
 | No | Projects | Demo
 |---|-------------|-------------------------|
-| 1. | Project  0(Click on expand)  |
-
-| 2. | Project 1(Follower Celebration) |
-
-| 3. | Project 3(Paint with flex) |
+| 1. | Project  0(Click on expand)  |  h |
+| 2. | Project 1(Follower Celebration) | y |
+| 3. | Project 3(Paint with flex) | Z |
