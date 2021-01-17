@@ -1,0 +1,95 @@
+
+:root
+{
+    --cr1:#FF0000;
+    --cr2: #FF7F00;
+    --cr3:#FFFF00;
+    --cr4:#00FF00;
+    --cr40:#00f;
+    --cr41:#2E2B5F;
+    --cr42: #8B00FF;
+    --remove:white;
+}
+
+.cr-1
+{  
+    position:absolute;
+    top:10px;
+    width: 300px;
+    height: 300px;
+    top: 20px;
+    left: 20px;
+    border-top-left-radius: 300px;
+    background-color: var(--cr1);
+}
+.cr-2
+{   
+    position: absolute;
+    width: 280px;
+    height: 280px;
+    top: 40px;
+    left: 40px;
+    border-top-left-radius: 300px;
+    background-color: var(--cr2);
+}
+.cr-3
+{   
+    position: absolute;
+    width: 260px;
+    height: 260px;
+    top: 60px;
+    left: 60px;
+    border-top-left-radius: 300px;
+    background-color: var(--cr3);
+}
+.cr-4
+{   
+    position: absolute;
+    width: 240px;
+    height: 240px;
+    top: 80px;
+    left: 80px;
+    border-top-left-radius: 300px;
+    background-color: var(--cr4);
+}
+.cr-40
+{   
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    top: 100px;
+    left: 100px;
+    border-top-left-radius: 300px;
+    background-color: var(--cr40);
+}
+.cr-41
+{   
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 120px;
+    left: 120px;
+    border-top-left-radius: 300px;
+    background-color: var(--cr41);
+}
+.cr-42
+{
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    top: 140px;
+    left: 140px;
+    border-top-left-radius: 300px;
+    background-color: var(--cr42);
+}
+.remove
+{
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    top: 160px;
+    left: 160px;
+    border-top-left-radius: 300px;
+    border:none;
+    background-color: var(--remove);
+}
