@@ -1,0 +1,9 @@
+html {
+    background: url('background.png');
+    background-size: cover;
+}
+
+.keys
+{
+    display: grid;
+}

@@ -1,0 +1,149 @@
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+
+
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+	overflow: hidden;
+  background: #eaea;
+  color: #333;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.animation
+{   
+	display: flex;
+	width: 200px;
+	animation:rotating 7s linear infinite;
+	transform-style: preserve-3d;
+	justify-content: center;
+	position: relative;
+}
+[class^="circle-"]
+{
+    position:absolute;
+	width:200px;
+	height:200px;
+	border-radius:50%;
+	background-color:#aeae;
+	top: -100px;
+	filter: opacity(0.4);
+    
+}
+.circle-1
+{
+	transform:rotateX(10deg);
+	background-color: rebeccapurple;
+}
+.circle-2
+{
+	transform:rotateX(30deg);
+	background-color: aqua;
+}
+.circle-3
+{
+	transform:rotateX(60deg);
+	background-color: cadetblue;
+}
+.circle-4
+{
+	transform:rotateX(90deg);
+	background-color: chocolate;
+}
+.circle-41
+{
+	transform:rotateX(120deg);
+	background-color: cornflowerblue;
+}
+.circle-42
+{
+	transform:rotateX(150deg);
+	background-color: lightblue;
+}
+.circle-7
+{
+	transform:rotate(180deg);
+	background-color: crimson;
+
+}
+.circle-8
+{
+	transform:rotateX(210deg);
+	background-color: #aeae;
+}
+.circle-9
+{
+	transform:rotateX(240deg);
+	background-color: violet;
+}
+.circle-10
+{
+ transform:rotateX(270deg);
+ background-color: springgreen;
+}
+
+@keyframes rotating
+{
+	
+		0%
+		{
+			transform: rotate3d(1,1,1, 0deg);
+		}
+		10%
+		{
+			transform: rotate3d(2,2,2, 90deg);
+		}
+		20%
+		{
+			transform: rotate3d(3,3,3, 180deg);
+		}
+		30%
+		{  
+			 transform: rotate3d(4,4,4,270deg);
+		}
+		40%
+		{
+			transform: rotate3d(5,5,5, 360deg);
+		}
+		50%
+		{
+			transform: rotate3d(6,6,6, 449deg);
+		}
+		60%
+		{  
+			 transform: rotate3d(7,7,7, 540deg);
+		}
+		70%
+		{
+			transform: rotate3d(8,8,8, 630deg);
+		}
+		80%
+		{
+			transform: rotate3d(9,9,9, 720deg);
+		}
+		90%
+		{  
+			 transform: rotate3d(10,10,10,900deg);
+		}
+        100%
+		{  
+			 transform: rotate3d(0,0,0,0);
+		}
+		
+	
+}
