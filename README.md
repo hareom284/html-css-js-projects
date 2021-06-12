@@ -11,13 +11,16 @@
   <ul>
     <li>First,Fork this repo.</li>
     <li>Second,Clone this project</li>
+    
+    
   ```
+    
     $git clone https://github.com/hareom284/html-css-js-projects
     
   ``` 
     
     <li>Third,Make a pull request</li>
-    
+  </ul>
 
 
 | No | Projects | Demo
