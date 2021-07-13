@@ -1,0 +1,227 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* material icon custom  */
+.material-icons {
+  font-family: "Material Icons";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 30px !important; /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: "liga";
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background-color: #e8edea;
+}
+
+.header_left {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+.header_left img {
+  height: 40px;
+}
+.header_left .search {
+  padding: 4px 0px;
+}
+.header_left .search_box {
+  display: flex;
+  align-items: center;
+  border-radius: 40px;
+  background-color: white;
+}
+
+.header_left .search_box input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.header_mid {
+  display: flex;
+  gap: 60px;
+}
+.header_mid .home-icon.active {
+  color: blue;
+  border-bottom: 4px solid blue;
+}
+.header_mid .material-icons {
+  padding: 20px;
+}
+.header_mid .material-icons:hover {
+  border: 1px solid #dddddd;
+  border-radius: 30px;
+  background-color: #ddd;
+}
+.header_right {
+  display: flex;
+  gap: 10px;
+}
+.header_right .profile img {
+  border-radius: 30px;
+  border: 4px solid #ddd;
+}
+
+.header_right .profile {
+  display: flex;
+  align-items: center;
+}
+
+.circle {
+  border: 1px solid #dddddd;
+  padding: 10px;
+  border-radius: 30px;
+  background-color: #ddd;
+}
+
+.circle:hover {
+  background-color: #fff;
+}
+
+/* slider left section  */
+.slider-left {
+  display: grid;
+  padding-left: 20px;
+  /* gap: 40px; */
+  padding-top: 40px;
+  width: 20%;
+}
+.item {
+  display: flex;
+  align-self: center;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.content-section {
+  position: absolute;
+  top: 140px;
+  left: 24%;
+  width: 55%;
+}
+.story {
+  display: flex;
+  gap: 10px;
+}
+[class^="story-"] {
+  flex:0 0 100px;
+  height: 211px;
+  border-radius: 10px;
+  /* background-color: aquamarine; */
+}
+.user-profile img {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  border-radius: 14px;
+  border: 4px solid gray;
+  top: -200px;
+  left: 10px;
+}
+.background img.background-image.user
+{  
+    width: 99px;
+    height: 140px;
+    background: cover;
+}
+.background img.background-image
+{   
+    width: 99px;
+    height: 211px;
+    background: cover;
+}
+.create-story
+{   
+    margin-top: 0px;
+    background-color: blanchedalmond;
+}
+.create-story span
+{
+    
+    margin-left:30px;
+}
+
+.story-user-name
+{ 
+  font-size: 14px;
+  font-weight: bolder;
+  position: relative;
+  bottom:70px;
+  color: #ddd;
+  margin-left: 10px;
+  text-align: justify;
+}
+
+/* new feed section  */
+
+.new-feed-section
+{
+  display: grid;
+  background-color: #e8edea;
+  width:90%;
+  margin: 0 auto;
+  margin-top: 40px;
+  border-radius: 10px;
+}
+.what-happening
+{
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+  
+}
+.upload-first
+{
+  display: flex;
+  gap: 10px;
+}
+.what-happening img 
+{ 
+  border-radius: 20px;
+  
+}
+.what-happening input
+{
+  width: 590px;
+  border-radius: 20px;
+  border: 1px solid #e8edea;
+}
+.upload-icon
+{
+  display: flex;
+  gap: 100px;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+.upload-icon
+{
+  flex-basis: 100px
+} 

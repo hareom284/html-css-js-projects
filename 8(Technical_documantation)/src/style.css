@@ -1,0 +1,71 @@
+.slide-bar
+{
+    position: fixed;
+    top: 100px;
+    left: 0;
+    width: 20%;
+    height: 84%;
+    overflow: scroll;
+}
+.position-fixed
+{
+    position:fixed;
+    top: 0px;
+    left: 10px;
+    text-align: center;
+}
+
+ul
+{
+    list-style-type: none;
+    
+}
+li
+{
+    padding: 20px;
+    border: 1px solid #0ae;
+}
+.nav-link
+{
+    border-radius:10px ;
+    background: azure;
+}
+a
+{
+    text-decoration: none;
+}
+
+#main-doc
+{
+    position: absolute;
+    left: 24%;
+    top: 22%;
+    overflow: visible;
+}
+@media only screen and (max-width: 600px) {
+    .slide-bar
+    {
+        position: absolute;
+        top: 0px;
+        width:90%;
+        height: 20%;
+        z-index: 1;
+
+    }
+li
+{
+    padding: 1px;
+    border: 1px solid #0ae;
+}
+ #main-docs
+ {
+    position: relative;
+    top:30%;
+ }
+}
+@media only screen and (max-width: 840px) {
+body
+{
+    background-color: #0ae;
+}
+}

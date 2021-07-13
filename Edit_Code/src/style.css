@@ -1,0 +1,19 @@
+head, style {
+	display: block;
+}
+style:not(.edit)  {
+	visibility:hidden;
+}
+#css {
+	-webkit-user-modify: read-write-plaintext-only;
+	padding: 20px; 
+    width: 40%; 
+	border-radius: 10px; 
+	background-color:#fefefe; 
+	margin: 20px;  margin-top: 50px;
+}
+
+body {
+	font-family:Verdana, Geneva, sans-serif; 
+	font-size:1.2em;
+}
