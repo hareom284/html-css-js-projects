@@ -3,6 +3,25 @@
 <h2>Here some projects that you will learn from here<h2>
 
 <strong>Before starting this please read "readme.md" of each project.</strong>
+  
+  <p>I am welcome to those who want to constribute this project and make better.</p>
+  
+  <h3>If you want to constribute this project</h1>
+  
+  <ul>
+    <li>First,Fork this repo.</li>
+    <li>Second,Clone this project</li>
+    
+    
+  ```
+    
+    $git clone https://github.com/hareom284/html-css-js-projects
+    
+  ``` 
+    
+    
+ <li>Third,Make a pull request</li>
+  </ul>
 
 
 | No | Projects | Demo
